@@ -1,5 +1,3 @@
-
-
 void back() {
   ArrayList<PVector> points = new ArrayList<PVector>();
 

@@ -1,8 +1,4 @@
-import peasy.PeasyCam;
-
 int seed = int(random(999999));
-
-PeasyCam cam;
 
 void setup() {
   size(960, 540, P3D);

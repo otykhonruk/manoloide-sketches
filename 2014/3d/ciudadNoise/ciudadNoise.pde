@@ -1,13 +1,9 @@
-import peasy.*;
-
-PeasyCam cam;
 PGraphics gra;
 PVector position;
 
 void setup() {
   size(720, 480, P3D);
   smooth(16);
-  cam = new PeasyCam(this, 100);
   position = new PVector();
   //gra = generarCiudad(2048, 2048, position);
 }

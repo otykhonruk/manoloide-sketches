@@ -1,4 +1,3 @@
-import org.processing.wiki.triangulate.*;
 import toxi.math.noise.SimplexNoise;
 
 int seed = int(random(999999));
@@ -21,7 +20,7 @@ void settings() {
 }
 
 void setup() {
-  generate();
+  // generate();
 
   /*
   if (export) {

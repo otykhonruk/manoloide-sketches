@@ -3,9 +3,6 @@
   - idea uno, crear array con cada pixel(60px), olvidarse de los cuadrados en si. 
 */
 
-import org.processing.wiki.triangulate.*;
-import toxi.math.noise.SimplexNoise;
-
 int seed = int(random(999999));
 
 float nwidth =  800; 

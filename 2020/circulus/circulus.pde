@@ -1,9 +1,3 @@
-import org.processing.wiki.triangulate.*;
-import toxi.math.noise.SimplexNoise;
-import peasy.PeasyCam;
-
-//PeasyCam cam;
-
 int seed = 999;//int(random(999999));
 
 float nwidth =  960; 

@@ -12,7 +12,5 @@ void setup() {
 void draw() {
   amplitud = map(mouseY,0,height,1,-1);
   for (int i = 0; i < width; i++) {
-    line(
   }
 }
-

@@ -1,7 +1,3 @@
-import peasy.PeasyCam;
-
-PeasyCam cam;
-
 int seed = int(random(9999999));
 float rotX = 0; 
 float rotY = 0;
@@ -14,7 +10,6 @@ void setup() {
   size(800, 800, P3D);
   smooth(8);
   pixelDensity(2);
-  cam = new PeasyCam(this, 400);
   background(0);
 }
 

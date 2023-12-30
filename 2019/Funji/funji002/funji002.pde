@@ -1,9 +1,7 @@
 import org.processing.wiki.triangulate.*;
-import peasy.PeasyCam;
 
 int seed = int(random(99999));
 
-PeasyCam cam;
 
 void settings() {
   size(800, 600, P3D);
@@ -13,7 +11,6 @@ void settings() {
 
 public void setup() {
   cam = new PeasyCam(this, 400);
-  //cam.se
 }
 
 void draw() {

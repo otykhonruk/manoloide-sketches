@@ -1,6 +1,3 @@
-import org.processing.wiki.triangulate.*;
-import toxi.math.noise.SimplexNoise;
-
 int seed = 58621;//int(random(999999));
 
 float nwidth =  960;
@@ -113,7 +110,7 @@ void generate() {
 
 
       if ((val+0)%2 == 0) fill(col2);
-      if ((val+)%2 == 1) fill(col1);
+      if ((val+0)%2 == 1) fill(col1);
       ellipse(xx+ss*0.5, yy+ss*0.5, ss*0.05, ss*0.05);
 
       if ((val+2)%2 == 0) fill(col4);

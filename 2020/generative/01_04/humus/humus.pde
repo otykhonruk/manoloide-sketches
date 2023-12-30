@@ -1,9 +1,3 @@
-import org.processing.wiki.triangulate.*;
-import toxi.math.noise.SimplexNoise;
-import peasy.PeasyCam;
-
-//PeasyCam cam;
-
 int seed = int(random(999999));
 
 float nwidth =  960; 
@@ -24,7 +18,6 @@ void settings() {
 }
 
 void setup() {
-  //cam = new PeasyCam(this, 400);
   img = loadImage("colors2.jpg");
   generate();
 
@@ -37,7 +30,7 @@ void setup() {
 }
 
 void draw() {
-  //generate();
+  // generate();
 }
 
 void keyPressed() {
@@ -45,16 +38,6 @@ void keyPressed() {
   else {
     seed = int(random(999999));
     generate();
-  }
-}
-
-class Rect {
-  float x, y, w, h;
-  Rect(float x, float y, float w, float h) {
-    this.x = x;
-    this.y = y;
-    this.w = w;
-    this.h = h;
   }
 }
 

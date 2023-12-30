@@ -1,6 +1,3 @@
-import org.processing.wiki.triangulate.*;
-import toxi.math.noise.SimplexNoise;
-
 int seed = int(random(999999));
 
 float nwidth =  960;
@@ -96,7 +93,6 @@ void generate() {
   int aux[] = {#979C30, #578574, #458787, #4D6626, #9F860B};
   colors = aux;
 
-  int col = rcol();
   //blendMode(ADD);
   strokeCap(SQUARE);
   for (int i = 0; i < 40000; i++) {

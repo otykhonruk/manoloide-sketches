@@ -1,6 +1,3 @@
-import org.processing.wiki.triangulate.*;
-import toxi.math.noise.SimplexNoise;
-
 int seed = 477503;//int(random(999999));
 float nwidth =  960;//3000//5600/2;//1400; 
 float nheight = 960;//3000//4000/2;//1000;
@@ -8,7 +5,7 @@ float swidth = 960;
 float sheight = 960; //1400
 float scale = 1;
 
-boolean export = true;
+boolean export = false;
 
 void settings() {
   scale = nwidth/swidth;

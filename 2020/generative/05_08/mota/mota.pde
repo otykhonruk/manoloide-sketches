@@ -1,4 +1,3 @@
-import org.processing.wiki.triangulate.*;
 import toxi.math.noise.SimplexNoise;
 
 import java.util.Collections;

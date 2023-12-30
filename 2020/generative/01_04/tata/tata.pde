@@ -1,4 +1,3 @@
-import org.processing.wiki.triangulate.*;
 import toxi.math.noise.SimplexNoise;
 
 int seed = 42956;//int(random(999999));

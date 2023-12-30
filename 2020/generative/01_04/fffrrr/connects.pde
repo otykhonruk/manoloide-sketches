@@ -1,4 +1,3 @@
-
 void connects(ArrayList<PVector> points) {
   ArrayList<PVector> reached = new ArrayList<PVector>();
   ArrayList<PVector> unreached = new ArrayList<PVector>();

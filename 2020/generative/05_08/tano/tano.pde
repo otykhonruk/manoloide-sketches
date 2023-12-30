@@ -1,6 +1,3 @@
-import org.processing.wiki.triangulate.*;
-import toxi.math.noise.SimplexNoise;
-
 int seed = int(random(999999));
 
 float nwidth =  960;
@@ -94,9 +91,6 @@ void generate() {
       points.add(new PVector(xx, yy, ss));
     }
   }
-
-  ArrayList<Triangle> triangles = Triangulate.triangulate(points);
-  int cc = rcol();
 
   /*
    stroke(cc);

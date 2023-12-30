@@ -1,13 +1,3 @@
-import org.processing.wiki.triangulate.*;
-import toxi.math.noise.SimplexNoise;
-
-
-import peasy.PeasyCam;
-
-
-PeasyCam cam;
-
-
 int seed = int(random(999999));
 
 float nwidth =  540; 
@@ -28,9 +18,6 @@ void settings() {
 }
 
 void setup() {
-  
-  cam = new PeasyCam(this, 400);
-
   generate();
 
   if (export) {
